@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #20232a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.button {
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  transition: all 0.4s;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 1px 1px #6a758d;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+}
